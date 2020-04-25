@@ -21,20 +21,23 @@ body {
 .header {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    padding: 140px;
-    background-image: url(header.jpeg);
+    align-content: flex-start;
+    padding: 40px 60px 220px 700px;
     max-width: 100%;
-    height: auto;
+    height: 80px;
+    background-image: url(header.jpeg);
     background-position: 0 auto;
     margin-block-start: 0em;
+    margin-block-end: 1em;
+    background-size: 1200px;
 }
 
 #sarah {
-    font-size: 100px;
+    font-size: 60px;
     font-style: italic;
-    color: rgb(188, 207, 14);
-    text-shadow: -0px 10px 0 #000000;
+    color: rgba(220, 238, 238, 0.925);
+    text-shadow: -5px 5px 0 #3a3838;
+    margin: 0px;
 }
 
 .links {
@@ -42,4 +45,32 @@ body {
     border-radius: .25rem;
     color: purple;
     font-size: 30px;
+}
+
+.familypic-container {
+    max-width:100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-block-start: 1em;
+    background-color: darkgray;
+    scroll-margin-block-end: 1em;
+}
+img {
+    width: 30%;
+    height: 95%;
+}
+
+.heading {
+    max-width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: 0em;
+    margin-block-end: 10px;
+    background-color: darkgray;
+    font-size: 12px;
+    font-style: italic;
 }
