@@ -1,0 +1,24 @@
+body {
+    margins: 10px 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 140px;
+    background-image: url(header.jpeg);
+    max-width: 100%;
+    height: auto;
+    background-position: 0 auto;
+    opacity: 1;
+    margin-block-start: 0em;
+    
+}
+
+#sarah {
+    font-size: 100px;
+    font-style: italic;
+    color: brown;
+    text-shadow: -0px 10px 0 #000000;
+}
