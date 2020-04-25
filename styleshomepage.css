@@ -2,6 +2,22 @@ body {
     margins: 10px 100px;
 }
 
+/* .container { */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-content: flex; */
+    /* max-width: auto; */
+/* } */
+
+.links-container {
+    display: flex;
+    margin: 0 auto;
+    width: auto;
+    justify-content: space-around;
+    background-color: cornflowerblue;
+    padding: 35px;
+}
+
 .header {
     display: flex;
     justify-content: center;
@@ -11,14 +27,19 @@ body {
     max-width: 100%;
     height: auto;
     background-position: 0 auto;
-    opacity: 1;
     margin-block-start: 0em;
-    
 }
 
 #sarah {
     font-size: 100px;
     font-style: italic;
-    color: brown;
+    color: rgb(188, 207, 14);
     text-shadow: -0px 10px 0 #000000;
+}
+
+.links {
+    padding: 1rem;
+    border-radius: .25rem;
+    color: purple;
+    font-size: 30px;
 }
