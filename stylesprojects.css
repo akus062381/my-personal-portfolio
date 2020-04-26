@@ -1,0 +1,101 @@
+.links-container {
+    display: flex;
+    margin: 0 auto;
+    width: auto;
+    justify-content: space-around;
+    background-color: rgb(154, 171, 202);
+    padding: 10px;
+}
+
+.links {
+    padding: 1rem;
+    border-radius: .25rem;
+    color: purple;
+    font-size: 20px;
+}
+
+.projects {
+    max-width: 100%;
+    background-color: rgb(154, 171, 202);
+    /* margin: 0 auto; */
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    padding: 20px;
+    margin-block-start: 1em;
+}
+
+.projecttitle {
+    font-size: 50px;
+    color: purple;
+    text-shadow: -2px 4px black;
+}
+
+h2 {
+    margin-block-start: 1em;
+}
+
+.smallbiz {
+    display: flex;
+    justify-content: center;
+    margin-block-start: 2em;
+    border-radius: 50%;
+    max-width: 100%;
+    margin-inline-start: 25em;
+    margin-inline-end: 25em;
+    background-color: rgb(154, 171, 202);
+}
+
+.smallbizss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pgraph {
+    width: 400px;
+}
+
+#pgraph1 {
+    margin-block-start: 1em;
+}
+
+#pgraph2 {
+    margin-block-start: 1em;
+}
+
+.image {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin-block-start: 2em;
+}
+
+.dogadopt {
+    display: flex;
+    justify-content: center;
+    margin-block-start: 3em;
+    border-radius: 50%;
+    max-width: 100%;
+    margin-inline-start: 25em;
+    margin-inline-end: 25em;
+    background-color: rgb(154, 171, 202);
+}
+
+.paragraph {
+    width: 400px;
+}
+
+#paragraph1 {
+    margin-block-start: 1em;
+}
+
+#paragraph2 {
+    margin-block-start: 1em;
+}
+
+.dogadoptss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
