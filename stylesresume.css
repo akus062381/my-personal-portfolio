@@ -1,0 +1,36 @@
+.links-container {
+    display: flex;
+    margin: 0 auto;
+    width: auto;
+    justify-content: space-around;
+    background-color: rgb(154, 171, 202);
+    padding: 10px;
+}
+
+.links {
+    padding: 1rem;
+    border-radius: .25rem;
+    color: purple;
+    font-size: 20px;
+}
+
+.resume {
+    max-width: 100%;
+    background-color: rgb(154, 171, 202);
+    /* margin: 0 auto; */
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    padding: 20px;
+    margin-block-start: 1em;
+}
+
+.resumeheader {
+    font-size: 50px;
+    color: purple;
+    text-shadow: -2px 4px black;
+}
+
+.name {
+    max-width: 100%;
+}
